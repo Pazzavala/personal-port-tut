@@ -36,7 +36,7 @@ export const Hero = () => {
                 <div>
                     <a
                         href='/'
-                        className='px-6 py-3 w-full rounded-xl mr-4 primary-color-button text-white'
+                        className='px-6 py-3 w-full rounded-xl mr-4 bg-primary-color text-white'
                     >
                         {' '}
                         Download CV
