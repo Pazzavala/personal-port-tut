@@ -11,9 +11,7 @@ export const NavBar = () => {
 
     return (
         <div className='bg-black text-gray-400 h-[100px] max-w-[1300px] mx-auto flex justify-between items-center'>
-            <h1 className='text-3xl font-bold ml-4 primary-color'>
-                Maria Zavala
-            </h1>
+            <h1 className='text-3xl font-bold ml-4 primary-color'>M. Zavala</h1>
             <ul className='hidden md:flex'>
                 {pages.map((page) => (
                     <li className='p-5'>
