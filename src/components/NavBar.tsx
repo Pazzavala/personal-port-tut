@@ -15,10 +15,11 @@ export const NavBar = () => {
             <ul className='hidden md:flex'>
                 {pages.map((page) => (
                     <li className='p-5'>
-                        <a href={`# ${page}`}>{page}</a>
+                        <a href={`#${page}`}>{page}</a>
                     </li>
                 ))}
             </ul>
+
             <div onClick={handleNav} className='block md:hidden mr-6'>
                 {nav ? (
                     <AiOutlineClose size={20} />
@@ -26,6 +27,7 @@ export const NavBar = () => {
                     <AiOutlineMenu size={20} />
                 )}
             </div>
+
             <div
                 className={
                     nav
